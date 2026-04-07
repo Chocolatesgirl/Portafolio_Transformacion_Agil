@@ -1,15 +1,50 @@
-# 🧱 Diseño de Tablero Kanban — App de Inglés para Niños
+# 🧱 Diseño de Tablero Kanban — Gestión de Flujo en Producto Digital
 
 ## 🎯 Objetivo
 
-Definir la estructura de un tablero Kanban para gestionar el desarrollo de una:
+Diseñar un sistema Kanban orientado a la **gestión de flujo end-to-end**, permitiendo:
 
-👉 **Aplicación de aprendizaje de inglés para niños de 3 a 8 años**
+* Visualizar el trabajo desde la idea hasta producción
+* Controlar la carga de trabajo (WIP)
+* Identificar cuellos de botella
+* Mejorar la predictibilidad de entrega
 
-El tablero está diseñado para ser implementado en herramientas como:
+Este diseño está pensado para su implementación en:
 
 * Jira
 * Azure DevOps
+
+---
+
+## 🧩 Contexto del caso
+
+Se aplica sobre el desarrollo de una:
+
+👉 **Aplicación de aprendizaje de inglés para niños de 3 a 8 años**
+
+### Problema inicial
+
+* Flujo de trabajo no visible
+* Acumulación de tareas en testing
+* Alta variabilidad en tiempos de entrega
+* Equipos trabajando en múltiples tareas simultáneamente
+
+👉 Resultado:
+
+* Bajo throughput
+* Lead Time elevado
+* Baja predictibilidad
+
+---
+
+## 🧠 Decisión de diseño
+
+Se define un flujo Kanban que:
+
+* Representa el proceso real (no ideal)
+* Incorpora validaciones de calidad explícitas
+* Permite medir cada etapa del flujo
+* Facilita la gestión basada en métricas
 
 ---
 
@@ -19,259 +54,231 @@ El tablero está diseñado para ser implementado en herramientas como:
 Backlog → Ready → Development → Code Review → Testing → QA → Release → Done
 ```
 
+👉 Cada columna representa un estado del sistema, no solo una actividad.
+
 ---
 
-## 📌 Definición de columnas
+## 📌 Definición de columnas y propósito
 
 ### 🧩 Backlog
 
-* Contiene todas las iniciativas priorizadas
-* Definidas a nivel de feature o épica
+* Contiene iniciativas priorizadas (épicas/features)
+* Fuente de demanda del sistema
+
+👉 No forma parte del flujo activo
 
 ---
 
 ### 🟡 Ready
 
-* Historias refinadas
+* Historias refinadas y priorizadas
 * Cumplen Definition of Ready (DoR)
-* Listas para ser tomadas por el equipo
+
+👉 Punto de entrada al sistema Kanban
 
 ---
 
 ### 🔵 Development
 
-* Historias en desarrollo activo
-* Código en construcción
+* Construcción de funcionalidad
+* Generación de valor inicial
+
+👉 Riesgo: sobrecarga de trabajo (WIP alto)
 
 ---
 
 ### 🟣 Code Review
 
 * Validación técnica
-* Revisión de calidad de código
+* Control de calidad de código
+
+👉 Previene deuda técnica
 
 ---
 
 ### 🟠 Testing
 
-* Pruebas unitarias e integradas
 * Validación funcional
+* Pruebas integradas
+
+👉 Punto crítico del flujo (frecuente cuello de botella)
 
 ---
 
 ### 🟢 QA
 
-* Validación final
-* Pruebas de usuario / negocio
+* Validación de negocio
+* Aseguramiento de calidad final
+
+👉 Reduce defectos en producción
 
 ---
 
 ### 🚀 Release
 
-* Listo para despliegue
-* Aprobado por QA
+* Preparación de despliegue
+* Validación final técnica
 
 ---
 
 ### ✅ Done
 
 * Funcionalidad en producción
-* Cumple Definition of Done
+* Cumple Definition of Done (DoD)
+
+👉 Genera valor real al usuario
 
 ---
 
-## 📋 Ejemplos de tareas (Jira / Azure DevOps)
+## ⚙️ Principios de diseño aplicados
+
+### 1. Visualización end-to-end
+
+El flujo cubre desde la solicitud hasta la entrega en producción.
+
+👉 Permite medir Lead Time completo
 
 ---
+
+### 2. Control de calidad integrado
+
+Se separan explícitamente:
+
+* Code Review
+* Testing
+* QA
+
+👉 Evita trasladar defectos aguas abajo
+
+---
+
+### 3. Gestión del flujo, no de tareas
+
+El tablero está diseñado para:
+
+* Limitar trabajo en progreso
+* Priorizar finalización sobre inicio
+
+👉 Principio aplicado:
+**“Stop starting, start finishing”**
+
+---
+
+### 4. Preparación para métricas
+
+El diseño permite medir:
+
+* Lead Time
+* Cycle Time
+* Throughput
+* WIP por etapa
+
+👉 Base para mejora continua
+
+---
+
+## 📋 Ejemplo de trabajo real (Jira / Azure DevOps)
 
 ### 🎮 Feature: Juego de vocabulario interactivo
 
-**Epic:** Aprendizaje básico de vocabulario
+#### 🧩 Historia
 
----
+**Título:** Reproducción de audio en palabras
 
-#### 🧩 Historia 1
-
-**Título:** Implementar reproducción de audio en palabras
-
-**Descripción:**
-Como niño, quiero escuchar la pronunciación de una palabra para aprender correctamente
+**Objetivo de negocio:**
+Mejorar aprendizaje mediante estímulo auditivo
 
 **Criterios de aceptación:**
 
-* Audio se reproduce al tocar la palabra
-* Funciona en móvil y tablet
-* No supera 1 segundo de latencia
-
-**Tareas técnicas:**
-
-* Integrar API de audio
-* Crear componente de reproducción
-* Manejar eventos táctiles
-
----
-
-#### 🧩 Historia 2
-
-**Título:** Crear animaciones visuales al interactuar
-
-**Descripción:**
-Como niño, quiero ver animaciones para hacer el aprendizaje más entretenido
-
-**Criterios de aceptación:**
-
-* Animación al tocar palabra
+* Audio reproducible al tocar palabra
+* Latencia < 1 segundo
 * Compatible con dispositivos móviles
-* No afecta rendimiento
 
 **Tareas técnicas:**
 
-* Implementar animaciones (CSS/JS)
-* Integrar con componente UI
-* Pruebas de rendimiento
-
----
-
----
-
-### 🎤 Feature: Reconocimiento de voz
-
----
-
-#### 🧩 Historia 3
-
-**Título:** Integrar reconocimiento de voz básico
-
-**Descripción:**
-Como niño, quiero pronunciar palabras y recibir feedback
-
-**Criterios de aceptación:**
-
-* Detecta pronunciación correcta
-* Feedback visual inmediato
-* Funciona en entorno móvil
-
-**Tareas técnicas:**
-
-* Integrar API de speech-to-text
-* Validar pronunciación
-* Manejar errores de audio
-
----
-
----
-
-### 🎁 Feature: Sistema de recompensas
-
----
-
-#### 🧩 Historia 4
-
-**Título:** Implementar sistema de stickers
-
-**Descripción:**
-Como niño, quiero recibir recompensas al completar actividades
-
-**Criterios de aceptación:**
-
-* Asignación de stickers por logro
-* Visualización en perfil
-* Persistencia de datos
-
-**Tareas técnicas:**
-
-* Crear modelo de datos
-* Implementar lógica de asignación
-* Guardar progreso
-
----
-
----
-
-### 👨‍👩‍👧 Feature: Dashboard para padres
-
----
-
-#### 🧩 Historia 5
-
-**Título:** Visualizar progreso del niño
-
-**Descripción:**
-Como padre, quiero ver el avance de aprendizaje
-
-**Criterios de aceptación:**
-
-* Progreso por nivel
-* Tiempo de uso
-* Actividades completadas
-
-**Tareas técnicas:**
-
-* Crear API de métricas
-* Diseñar UI dashboard
-* Integrar backend
-
----
-
----
-
-## ⚙️ Configuración en Jira / Azure DevOps
-
-### Tipos de ítems
-
-* Epic
-* Feature
-* User Story
-* Task
-* Bug
-
----
-
-### Campos recomendados
-
-* Prioridad
-* Story Points
-* Responsable
-* Fecha objetivo
-* Estado
-* Etiquetas (feature, frontend, backend, QA)
+* Integración API de audio
+* Desarrollo componente UI
+* Manejo de eventos táctiles
 
 ---
 
 ## 🔒 Políticas clave del tablero
 
-* No iniciar nuevas tareas si WIP está lleno
+* No iniciar trabajo si WIP está lleno
 * Priorizar tareas bloqueadas
-* Toda historia debe cumplir DoR antes de entrar
-* Toda historia debe cumplir DoD antes de cerrar
+* Toda historia debe cumplir DoR para entrar
+* Toda historia debe cumplir DoD para salir
 
 ---
 
-## 📊 Ejemplo de flujo real
+## 🔍 Ejemplo de comportamiento del sistema
 
-1. Historia entra a **Ready**
-2. Equipo la toma → pasa a **Development**
-3. Se completa → pasa a **Code Review**
-4. Validación técnica → pasa a **Testing**
-5. QA valida → pasa a **Release**
-6. Se despliega → pasa a **Done**
+### Situación detectada
+
+* Testing alcanza su límite WIP
+* Development continúa iniciando tareas
+
+👉 Impacto:
+
+* Aumento del Cycle Time
+* Acumulación de trabajo
+* Flujo inestable
+
+---
+
+## 🛠️ Ajustes derivados del diseño
+
+* Reducción de WIP en Development
+* Redistribución de capacidad hacia Testing
+* Priorización de tareas en progreso
+
+---
+
+## 📈 Impacto del diseño
+
+* Reducción del Lead Time
+* Mejora en la estabilidad del flujo
+* Mayor predictibilidad de entrega
+* Disminución de cuellos de botella
+
+---
+
+## 🔗 Conexión con el sistema Kanban
+
+Este diseño habilita directamente:
+
+* 📊 `metricas_flujo.md` → medición del desempeño
+* 📊 `cumulative_flow_explicado.md` → análisis de flujo
+* 🔄 `simulacion_flujo_trabajo_jira.md` → operación real
+* 🛠️ `politicas_wip.md` → control del sistema
+
+👉 El diseño no es estático: evoluciona con datos.
 
 ---
 
 ## 💼 Enfoque profesional
 
-Este diseño refleja:
+Este tablero no es solo una visualización:
 
-* Gestión de flujo end-to-end
-* Separación clara de etapas de desarrollo
-* Control de calidad en múltiples niveles
-* Alineación con herramientas reales (Jira / Azure DevOps)
+Es una herramienta de **gestión de delivery**, que permite:
+
+* Tomar decisiones basadas en flujo
+* Optimizar la capacidad del equipo
+* Alinear desarrollo con valor de negocio
 
 ---
 
-## 🎯 Resultado esperado
+## 🔥 Insight clave
 
-* Flujo de trabajo visible y controlado
-* Reducción de cuellos de botella
-* Mejora en la calidad del software
-* Entrega continua de valor al usuario
+> Un buen tablero Kanban no refleja cómo trabaja el equipo…
+> revela cómo debería gestionar su flujo.
+
+---
+
+## ✅ Conclusión
+
+El diseño del tablero es la base del sistema Kanban.
+
+Define cómo fluye el trabajo, cómo se mide y cómo se mejora.
+
+👉 Sin un diseño adecuado, no hay gestión de flujo.
