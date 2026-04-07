@@ -1,134 +1,58 @@
 # 🎯 Ejecución Estratégica con OKRs
 
-## 🎯 Propósito
+## 📌 Propósito
 
-Este módulo presenta la implementación de **OKRs (Objectives and Key Results)** como herramienta para alinear estrategia, ejecución y resultados en equipos de desarrollo.
+Este módulo presenta la aplicación de **OKRs (Objectives & Key Results)** como mecanismo de **alineación estratégica y ejecución**, enfocado en entornos de desarrollo de productos digitales y transformación tecnológica.
 
-El enfoque está orientado a:
+El enfoque está orientado a demostrar cómo los OKRs permiten:
 
-* Traducir objetivos estratégicos en acciones concretas
-* Alinear equipos con resultados medibles
-* Priorizar iniciativas de alto impacto
-* Monitorear el avance mediante métricas claras
-
----
-
-## 🧠 Enfoque aplicado
-
-Los OKRs se utilizan como un sistema de gestión que conecta:
-
-👉 Estrategia → Ejecución → Resultados
-
-Permitiendo que los equipos trabajen con foco en **valor de negocio**, no solo en tareas.
+- Traducir estrategia en resultados medibles
+- Alinear equipos con objetivos de negocio
+- Priorizar iniciativas de alto impacto
+- Monitorear avance y ajustar decisiones en ejecución
 
 ---
 
-## 🧱 Componentes del módulo
+## 🧩 Contexto de aplicación
+
+Los OKRs se utilizan en contextos donde es necesario:
+
+- Alinear múltiples equipos hacia objetivos comunes
+- Gestionar transformación de productos o plataformas
+- Mejorar desempeño operativo y eficiencia
+- Asegurar foco en resultados y no solo en actividades
 
 ---
 
-### 📄 1. Plantilla OKR
+## 🚀 Estructura del módulo
 
-📄 `plantilla_okr.md`
-
-Define la estructura base para construir OKRs:
-
-* Objetivo (Objective) claro e inspirador
-* Resultados clave (Key Results) medibles
-* Iniciativas asociadas
-* Métricas de seguimiento
-
-👉 Permite estandarizar la definición de objetivos en el equipo.
+- [Fundamentos de OKRs](./01_fundamentos_okrs.md)
+- [Plantilla de OKR](./02_plantilla_okr.md)
+- [Ejemplo aplicado a equipo/proyecto](./03_ejemplo_okr_equipo.md)
+- [Seguimiento y revisión](./04_seguimiento_y_revision.md)
+- [Errores comunes en OKRs](./05_errores_comunes_en_okrs.md)
 
 ---
 
-### 👥 2. Ejemplo aplicado a equipo
+## 📈 Enfoque profesional
 
-📄 `ejemplo_okr_equipo.md`
+Este módulo aborda los OKRs desde una perspectiva de **gestión y liderazgo**, no como práctica teórica.
 
-Caso práctico de OKRs definidos a nivel de equipo:
+Se enfoca en:
 
-* Enfoque en mejora de delivery
-* Alineación con métricas de flujo
-* Resultados medibles y alcanzables
-
-👉 Demuestra cómo llevar OKRs a la operación diaria.
-
----
-
-### 🚀 3. Caso estratégico: Transformación ERP
-
-📄 `caso_okr_transformacion_erp.md`
-
-Aplicación de OKRs en un contexto organizacional:
-
-* Transformación de plataforma ERP
-* Alineación entre negocio y tecnología
-* Definición de objetivos estratégicos
-* Seguimiento de resultados a nivel organizacional
-
-👉 Muestra uso de OKRs en escenarios complejos.
+- Ejecución estratégica
+- Toma de decisiones basada en datos
+- Alineación entre negocio, tecnología y equipos
+- Mejora continua del desempeño organizacional
 
 ---
 
-## 🔍 Ejemplo de OKR
+## 🧠 Valor en entornos reales
 
-### 🎯 Objetivo
+La correcta implementación de OKRs permite:
 
-Mejorar la eficiencia del equipo de desarrollo
-
-### 📊 Resultados clave
-
-* Reducir Cycle Time de 5 a 3 días
-* Aumentar throughput en un 20%
-* Disminuir bloqueos en un 30%
-
-👉 Este tipo de OKR conecta directamente con métricas del flujo Kanban.
-
----
-
-## 📈 Beneficios observados
-
-* Mayor claridad en objetivos
-* Mejor priorización de iniciativas
-* Alineación entre equipos y negocio
-* Seguimiento basado en métricas
-
----
-
-## 🔄 Integración con Kanban
-
-Los OKRs se complementan con el sistema Kanban:
-
-* Kanban gestiona el flujo de trabajo
-* OKRs definen hacia dónde se dirige el esfuerzo
-
-👉 Juntos permiten optimizar ejecución y resultados.
-
----
-
-## 💼 Enfoque profesional
-
-Este módulo refleja prácticas utilizadas en entornos reales:
-
-* Gestión estratégica basada en resultados
-* Alineación organizacional
-* Uso de métricas para seguimiento
-* Integración entre estrategia y delivery
-
----
-
-## 🔥 Insight clave
-
-> Los OKRs no definen tareas…
-> definen resultados que generan impacto.
-
----
-
-## 🎯 Conclusión
-
-La implementación de OKRs permite transformar la gestión del equipo:
-
-👉 de enfocada en actividades → a enfocada en resultados medibles
-
-Asegurando una ejecución alineada con los objetivos del negocio.
+- Reducir dispersión de esfuerzos
+- Aumentar foco en resultados críticos
+- Mejorar la visibilidad del avance
+- Detectar desviaciones de forma temprana
+- Facilitar la toma de decisiones en contextos complejos
