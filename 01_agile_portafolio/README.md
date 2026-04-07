@@ -1,17 +1,8 @@
-# 🚀 Agile Portafolio
+ # 🚀 Agile Portafolio
 
 Portafolio profesional que demuestra cómo aplico metodologías ágiles en contextos reales para mejorar el desempeño de equipos, optimizar el flujo de trabajo y acompañar transformaciones organizacionales.
 
-Este repositorio reúne prácticas, métricas y casos aplicados que reflejan experiencia en facilitación de equipos, gestión del cambio y toma de decisiones basada en evidencia.
-
----
-
-## 🧩 Casos Destacados
-
-- **Implementación de Scrum + SAFe** en contextos organizacionales complejos  
-- **Optimización de flujo con Kanban** utilizando métricas como Lead Time, Cycle Time, Throughput y WIP  
-- **Aplicación de retrospectivas** para detectar problemas sistémicos y definir mejoras concretas  
-- **Uso de Management 3.0** para fortalecer motivación, autonomía y colaboración del equipo  
+Este repositorio reúne prácticas, métricas y casos aplicados que reflejan experiencia en liderazgo de equipos, gestión del cambio y toma de decisiones basada en evidencia.
 
 ---
 
@@ -27,6 +18,19 @@ Este portafolio está orientado a la aplicación práctica de metodologías ági
 
 ---
 
+## 🔗 Enfoque Sistémico de Entrega
+
+Este portafolio no presenta prácticas aisladas, sino un sistema integrado de gestión de entrega:
+
+- **OKRs** → Definen la dirección estratégica  
+- **Kanban** → Gestiona el flujo de trabajo  
+- **Métricas** → Permiten evaluar desempeño y tomar decisiones  
+- **Management 3.0** → Potencia el liderazgo y la autonomía del equipo  
+
+👉 Este enfoque permite conectar estrategia, ejecución y resultados de negocio.
+
+---
+
 ## 📂 Qué encontrarás aquí
 
 - **Kanban** → Diseño y optimización del flujo de trabajo  
@@ -34,6 +38,15 @@ Este portafolio está orientado a la aplicación práctica de metodologías ági
 - **Retrospectivas** → Técnicas para aprendizaje continuo y mejora del equipo  
 - **Management 3.0** → Prácticas de liderazgo, motivación y empoderamiento  
 - **Transformaciones Ágiles** → Aplicación en contextos organizacionales complejos  
+
+---
+
+## 🧩 Casos Destacados
+
+- **Implementación de Scrum + SAFe** en contextos organizacionales complejos  
+- **Optimización de flujo con Kanban** utilizando métricas como Lead Time, Cycle Time, Throughput y WIP  
+- **Aplicación de retrospectivas** para detectar problemas sistémicos y definir mejoras concretas  
+- **Uso de Management 3.0** para fortalecer motivación, autonomía y colaboración del equipo  
 
 ---
 
@@ -49,7 +62,7 @@ Estas técnicas permiten no solo mejorar el desempeño, sino también fortalecer
 
 ---
 
-### 🚀 Portafolio de Transformación Ágil
+## 🚀 Caso Destacado
 
 ### Implementación de Scrum y SAFe en contextos organizacionales complejos
 
@@ -94,7 +107,7 @@ Estas métricas permiten evaluar desempeño, detectar cuellos de botella y mejor
 
 ---
 
-## ✅ Capacidades Demostradas
+## 💼 Capacidades Demostradas
 
 - Facilitación de dinámicas de mejora continua  
 - Uso de métricas para la toma de decisiones  
@@ -125,4 +138,4 @@ Refleja experiencia real aplicando prácticas ágiles para mejorar equipos, proc
 Este repositorio forma parte de mi portafolio profesional en GitHub, donde integro liderazgo, metodologías ágiles y transformación tecnológica.
 
 🔗 Ver perfil completo:  
-https://github.com/Chocolatesgirl/Perfil_Profesional  
+https://github.com/Chocolatesgirl/Perfil_Profesional
