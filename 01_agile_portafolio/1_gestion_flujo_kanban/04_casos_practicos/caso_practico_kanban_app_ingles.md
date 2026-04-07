@@ -72,7 +72,7 @@ Backlog → Ready → Development → Code Review → Testing → QA → Release
 * gestión activa del flujo
 
 👉 Este diseño se detalla en:
-`../01_Diseño_Flujo/diseño_tablero_kanban.md`
+`../01_diseño_flujo/diseño_tablero_kanban.md`
 
 ---
 
@@ -94,7 +94,7 @@ Se prioriza **finalización sobre inicio de trabajo**.
 👉 Esto permite reducir multitarea y estabilizar el flujo.
 
 Más detalle en:
-`../02_Operacion_Flujo/2_politicas_wip.md`
+`../02_operacion_flujo/2_politicas_wip.md`
 
 ---
 
@@ -108,7 +108,7 @@ Se incorporan métricas de flujo para gestión del sistema:
 * **WIP** → carga del sistema
 
 👉 Estas métricas se analizan en:
-`../03_Metricas_y_Mejora/metricas_flujo.md`
+`../03_metricas_y_mejora/metricas_flujo.md`
 
 ---
 
