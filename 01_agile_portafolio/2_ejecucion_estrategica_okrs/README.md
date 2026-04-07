@@ -47,6 +47,21 @@ Se enfoca en:
 
 ---
 
+## 🔗 Integración con gestión de flujo (Kanban)
+
+Los OKRs no operan de forma aislada, sino que se integran con el sistema de gestión de flujo del equipo.
+
+Cada iniciativa asociada a un resultado clave se gestiona dentro del sistema Kanban, permitiendo:
+
+- Visualizar el trabajo asociado a cada objetivo
+- Controlar la carga mediante políticas WIP
+- Identificar cuellos de botella que afectan resultados
+- Medir impacto a través de métricas de flujo
+
+👉 Esta integración permite conectar estrategia con ejecución operativa, asegurando que los objetivos definidos se traduzcan en resultados reales.
+
+---
+
 ## 🧠 Valor en entornos reales
 
 La correcta implementación de OKRs permite:
