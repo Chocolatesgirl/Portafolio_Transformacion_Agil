@@ -62,6 +62,12 @@ Cada iniciativa asociada a un resultado clave se gestiona dentro del sistema Kan
 
 ---
 
+## 🧭 Ciclo de ejecución estratégica
+
+![Ciclo OKRs](./assets/ciclo_okrs.png)
+
+---
+
 ## 🧠 Valor en entornos reales
 
 La correcta implementación de OKRs permite:
