@@ -4,6 +4,11 @@ Portafolio profesional que demuestra cómo aplico metodologías ágiles en conte
 
 Este repositorio reúne prácticas, métricas y casos aplicados que reflejan experiencia en liderazgo de equipos, gestión del cambio y toma de decisiones basada en evidencia.
 
+![Agile](https://img.shields.io/badge/Agile-Scrum%20%7C%20Kanban-blue)
+![Strategy](https://img.shields.io/badge/Strategy-OKRs-purple)
+![Metrics](https://img.shields.io/badge/Metrics-Data%20Driven-green)
+![Leadership](https://img.shields.io/badge/Leadership-Management%203.0-orange)
+
 ---
 
 ## 🧠 Enfoque Profesional
