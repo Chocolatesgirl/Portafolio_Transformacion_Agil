@@ -1,200 +1,241 @@
-# 🧪 Simulación de Flujo de Trabajo en Jira — Kanban
+# 🔄 Simulación de Flujo de Trabajo en Jira — Operación Real
 
 ## 🎯 Objetivo
 
-Simular el funcionamiento real de un tablero Kanban en Jira / Azure DevOps para el desarrollo de una:
+Simular la operación real de un sistema Kanban en un equipo de desarrollo, mostrando:
 
-👉 **App de aprendizaje de inglés para niños de 3 a 8 años**
-
-Este documento representa cómo el equipo gestiona el trabajo día a día.
+* Cómo fluye el trabajo en el tablero
+* Qué problemas emergen en la operación
+* Qué decisiones se toman para optimizar el flujo
+* Qué impacto tienen dichas decisiones
 
 ---
 
-## 🧱 Estructura del tablero
+## 🧩 Contexto del caso
 
-```text id="l7w42d"
+Equipo desarrollando una:
+
+👉 **Aplicación de aprendizaje de inglés para niños de 3 a 8 años**
+
+### Situación inicial
+
+* Múltiples historias en progreso simultáneamente
+* Testing saturado
+* Bloqueos frecuentes
+* Falta de visibilidad del flujo
+
+👉 Resultado:
+
+* Cycle Time alto
+* Lead Time variable
+* Baja predictibilidad
+
+---
+
+## 🧠 Configuración inicial del sistema
+
+### Flujo implementado
+
+```text
 Backlog → Ready → Development → Code Review → Testing → QA → Release → Done
 ```
 
 ---
 
-## 📋 Estado inicial del tablero
+### WIP inicial (antes de mejora)
 
-### 🧩 Backlog
+| Etapa       | WIP |
+| ----------- | --- |
+| Development | ∞   |
+| Code Review | ∞   |
+| Testing     | ∞   |
 
-* [EPIC-01] Sistema de aprendizaje interactivo
-* [EPIC-02] Reconocimiento de voz
-* [EPIC-03] Sistema de recompensas
-
----
-
-### 🟡 Ready
-
-* [US-101] Reproducción de audio en palabras
-* [US-102] Animaciones visuales interactivas
-* [US-103] Integración básica de reconocimiento de voz
+👉 No existían límites → sistema inestable
 
 ---
 
-## 🔵 Development (WIP: 3/3)
+## 🔄 Simulación del flujo (Sprint / Semana de trabajo)
 
-* [US-101] Reproducción de audio
-  👤 Backend Developer
-  🔧 Integrando API de audio
+### Día 1
 
-* [US-102] Animaciones visuales
-  👤 Frontend Developer
-  🎨 Implementando animaciones
+* 5 historias pasan a **Development**
+* 2 historias avanzan a **Code Review**
 
-* [US-104] Persistencia de progreso
-  👤 Fullstack Developer
-  💾 Diseñando base de datos
+👉 Observación:
+
+* Se inicia mucho trabajo, se termina poco
 
 ---
 
-## 🟣 Code Review (WIP: 2/2)
+### Día 2
 
-* [US-105] Sistema de login padres
-* [US-106] Navegación UI principal
+* Code Review se acumula (4 historias)
+* Testing recibe solo 1 historia
 
-⚠️ Límite alcanzado → No se pueden ingresar nuevas tareas
+👉 Problema emergente:
 
----
-
-## 🟠 Testing (WIP: 2/2)
-
-* [US-107] Validación reproducción audio
-* [US-108] Pruebas de animaciones
-
-🚨 Problema detectado:
-
-* Testing saturado
-* Tareas acumulándose
+* Desbalance en el flujo
 
 ---
 
-## 🟢 QA (WIP: 1/2)
+### Día 3
 
-* [US-109] Validación experiencia usuario
+* Testing alcanza su capacidad máxima
+* Development sigue iniciando nuevas historias
 
----
+👉 Problema crítico:
 
-## 🚀 Release
-
-* [US-095] Pantalla inicio
-* [US-096] Navegación básica
-
----
-
-## ✅ Done
-
-* [US-090] Configuración inicial proyecto
-* [US-091] Estructura base frontend
+* Aumento de WIP
+* Tareas detenidas
+* Inicio > finalización
 
 ---
 
-# 🔍 Situación real del flujo
+### Día 4
 
-## 🚨 Problema identificado
+* Historias bloqueadas en Testing
+* Code Review continúa acumulando
 
-* Columna **Testing** saturada
-* Code Review también al límite
-* Development sigue iniciando trabajo
+👉 Impacto:
 
-👉 Resultado:
-
-* Aumento del Cycle Time
-* Cuello de botella en validación
+* Cycle Time aumenta
+* Flujo se vuelve inestable
 
 ---
 
-# 🛠️ Decisiones del equipo (Daily Kanban)
+## 🚨 Problemas identificados
 
-Durante la daily se toman las siguientes acciones:
+### 1. Sobrecarga en Development
 
-### 1. 🚫 Stop starting, start finishing
-
-* Se detiene ingreso de nuevas tareas a Development
+* Demasiadas tareas iniciadas
+* Falta de foco en finalización
 
 ---
 
-### 2. 🔄 Enfoque en desbloqueo
+### 2. Cuello de botella en Testing
+
+* Capacidad insuficiente
+* Acumulación de trabajo
+
+---
+
+### 3. Ausencia de políticas de flujo
+
+* No hay límites WIP
+* No hay priorización de bloqueos
+
+---
+
+## 🛠️ Decisiones tomadas
+
+### 1. Implementación de límites WIP
+
+| Etapa       | WIP |
+| ----------- | --- |
+| Development | 3   |
+| Code Review | 2   |
+| Testing     | 2   |
+
+---
+
+### 2. Cambio de foco del equipo
+
+👉 De:
+
+* “empezar trabajo”
+
+👉 A:
+
+* “terminar trabajo”
+
+---
+
+### 3. Gestión activa de bloqueos
+
+* Prioridad a tareas detenidas
+* Soporte cruzado del equipo
+
+---
+
+### 4. Redistribución de capacidad
 
 * Developers apoyan Testing
-* Se priorizan tareas en QA
+* Reducción de multitarea
 
 ---
 
-### 3. ⚙️ Ajuste de flujo
+## 🔄 Nuevo comportamiento del sistema
 
-* Se revisa necesidad de automatizar pruebas
-* Se evalúa reducir tamaño de historias
+### Día 5–7
 
----
+* Flujo más continuo
+* Menor acumulación
+* Mayor movimiento hacia Done
 
-# 📈 Evolución del tablero (después de ajustes)
+👉 Observación:
 
-## 🟠 Testing (WIP: 1/2)
-
-* Disminuye carga
-
-## 🟣 Code Review (WIP: 1/2)
-
-* Flujo más rápido
-
-## 🔵 Development (WIP: 2/3)
-
-* Menor sobrecarga
-
-👉 Flujo vuelve a estabilizarse
+* El sistema comienza a estabilizarse
 
 ---
 
-# 📊 Impacto en métricas
+## 📊 Impacto medido
 
-| Métrica    | Antes    | Después    |
-| ---------- | -------- | ---------- |
-| Cycle Time | Alto     | Reducido   |
-| WIP        | Saturado | Controlado |
-| Throughput | Bajo     | Estable    |
-
----
-
-# 💼 Prácticas observadas
-
-* Gestión activa del flujo
-* Uso de WIP como herramienta estratégica
-* Enfoque en terminar trabajo antes de comenzar nuevo
-* Colaboración cross-funcional
+| Métrica    | Antes         | Después      |
+| ---------- | ------------- | ------------ |
+| Lead Time  | Alto          | Reducido     |
+| Cycle Time | Variable      | Estable      |
+| WIP        | Descontrolado | Limitado     |
+| Throughput | Bajo          | Incrementado |
 
 ---
 
-# 🎯 Conclusión
+## 📈 Interpretación
 
-El tablero Kanban no es solo visualización:
-
-👉 Es un sistema dinámico de gestión de trabajo
-
-Donde el equipo:
-
-* Detecta cuellos de botella
-* Toma decisiones en tiempo real
-* Optimiza continuamente el flujo
+* Menos trabajo en progreso → mayor velocidad de entrega
+* Flujo estable → mayor predictibilidad
+* Menos bloqueos → mayor eficiencia
 
 ---
 
-## 🚀 Valor profesional
+## 🔗 Conexión con métricas
 
-Esta simulación demuestra:
+Este comportamiento se refleja en:
 
-* Experiencia en herramientas como Jira / Azure DevOps
-* Capacidad de gestión de equipos ágiles
-* Pensamiento orientado a flujo y métricas
+* 📊 `metricas_flujo.md` → medición de tiempos
+* 📊 `cumulative_flow_explicado.md` → visualización del flujo
+* 🧱 `diseno_tablero_kanban.md` → base del sistema
+
+👉 La operación valida el diseño.
+
+---
+
+## 💼 Enfoque profesional
+
+La gestión del tablero no es pasiva.
+
+Implica:
+
+* Observación constante del flujo
 * Toma de decisiones basada en datos
+* Ajuste continuo del sistema
+
+👉 El rol no es administrar tareas, sino gestionar el sistema de trabajo.
 
 ---
 
 ## 🔥 Insight clave
 
-> El problema no es la cantidad de trabajo…
-> es cómo fluye el trabajo dentro del sistema.
+> El problema no es cuánto trabaja el equipo…
+> sino cómo fluye ese trabajo.
+
+---
+
+## ✅ Conclusión
+
+La simulación demuestra que:
+
+* Sin control de WIP, el sistema colapsa
+* Sin foco en finalización, no hay entrega de valor
+* Sin métricas, no hay mejora real
+
+👉 Kanban no funciona sin gestión activa del flujo.
