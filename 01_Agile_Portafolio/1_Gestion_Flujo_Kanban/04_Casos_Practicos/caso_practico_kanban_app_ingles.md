@@ -6,11 +6,24 @@ Se implementa un sistema Kanban para gestionar el desarrollo de una:
 
 👉 **Aplicación de aprendizaje de inglés para niños de 3 a 8 años**
 
-El producto busca mejorar:
+El producto tiene como objetivo:
 
-* La **retención de usuarios**
-* El **engagement mediante experiencias interactivas**
-* El aprendizaje mediante **audio, juegos y recompensas**
+* mejorar la retención de usuarios
+* incrementar el engagement mediante experiencias interactivas
+* potenciar el aprendizaje mediante audio, juegos y recompensas
+
+---
+
+## 👩‍💼 Rol y enfoque
+
+En este escenario, el rol se enfoca en:
+
+* gestionar el flujo de trabajo end-to-end
+* estabilizar la operación del equipo
+* implementar métricas para toma de decisiones
+* alinear desarrollo con objetivos de producto
+
+👉 El foco no está en gestionar tareas, sino en gestionar el sistema de trabajo.
 
 ---
 
@@ -18,12 +31,16 @@ El producto busca mejorar:
 
 El equipo presentaba:
 
-* Sobrecarga de trabajo en desarrollo
-* Retrasos en fases de Testing y QA
-* Falta de visibilidad del estado real de las tareas
-* Entregas poco predecibles
+* sobrecarga de trabajo en Development
+* acumulación en Testing y QA
+* falta de visibilidad del estado real del flujo
+* alta variabilidad en tiempos de entrega
 
-👉 El flujo de trabajo era inconsistente y generaba cuellos de botella.
+👉 Resultado:
+
+* Lead Time elevado
+* Cycle Time inestable
+* baja predictibilidad
 
 ---
 
@@ -31,11 +48,11 @@ El equipo presentaba:
 
 Diseñar un sistema Kanban que permita:
 
-* Visualizar el flujo de trabajo end-to-end
-* Limitar el trabajo en curso (WIP)
-* Reducir tiempos de entrega
-* Detectar y resolver bloqueos rápidamente
-* Mejorar la predictibilidad del equipo
+* visualizar el flujo de trabajo end-to-end
+* limitar el trabajo en curso (WIP)
+* reducir tiempos de entrega
+* detectar y resolver bloqueos
+* mejorar la predictibilidad
 
 ---
 
@@ -43,149 +60,169 @@ Diseñar un sistema Kanban que permita:
 
 Se definió el siguiente flujo:
 
-```text id="snfslb"
+```text
 Backlog → Ready → Development → Code Review → Testing → QA → Release → Done
 ```
 
-### Principios aplicados:
+### Principios aplicados
 
-* Flujo continuo (sin dependencia de sprints rígidos)
-* Trabajo en unidades pequeñas
-* Políticas explícitas por columna
-* Gestión activa del flujo
+* flujo continuo (sin dependencia de sprints rígidos)
+* trabajo en unidades pequeñas
+* políticas explícitas por columna
+* gestión activa del flujo
 
----
-
-## 📌 Ejemplo de Feature
-
-**Feature:** Juego de vocabulario con audio
-
-**Historia de usuario:**
-
-> Como niño, quiero escuchar la pronunciación de una palabra para aprender correctamente
-
-### Criterios de aceptación:
-
-* Reproducción de audio al interactuar con la palabra
-* Feedback visual mediante animaciones
-* Compatibilidad con dispositivos móviles
+👉 Este diseño se detalla en:
+`../01_Diseño_Flujo/diseño_tablero_kanban.md`
 
 ---
 
 ## ⚙️ Implementación de WIP
 
-Se definieron límites de trabajo en curso:
+Se establecieron límites por etapa:
 
-| Columna     | Límite WIP |
-| ----------- | ---------- |
-| Development | 3          |
-| Code Review | 2          |
-| Testing     | 2          |
-| QA          | 2          |
+| Columna     | WIP |
+| ----------- | --- |
+| Development | 3   |
+| Code Review | 2   |
+| Testing     | 2   |
+| QA          | 2   |
 
-### Resultado:
+### Decisión clave
 
-* Reducción de multitarea
-* Mayor foco del equipo
-* Mejora en la calidad de entrega
+Se prioriza **finalización sobre inicio de trabajo**.
+
+👉 Esto permite reducir multitarea y estabilizar el flujo.
+
+Más detalle en:
+`../02_Operacion_Flujo/2_politicas_wip.md`
 
 ---
 
 ## 📊 Métricas utilizadas
 
-Se incorporaron métricas de flujo para tomar decisiones:
+Se incorporan métricas de flujo para gestión del sistema:
 
-### Lead Time
+* **Lead Time** → tiempo total de entrega
+* **Cycle Time** → eficiencia del equipo
+* **Throughput** → capacidad de entrega
+* **WIP** → carga del sistema
 
-Tiempo total desde la idea hasta producción
-👉 Ejemplo: 10 días
-
-### Cycle Time
-
-Tiempo desde inicio de desarrollo hasta entrega
-👉 Ejemplo: 4 días
-
-### Throughput
-
-Cantidad de historias entregadas por semana
-👉 Ejemplo: 8 historias
-
-### WIP
-
-Cantidad de trabajo en curso
-👉 Controlado para evitar saturación
+👉 Estas métricas se analizan en:
+`../03_Metricas_y_Mejora/metricas_flujo.md`
 
 ---
 
-## 🔍 Problema detectado (caso real)
+## 🔍 Problema detectado (operación real)
 
-Durante la implementación:
+Durante la operación del sistema:
 
-👉 Se detectó acumulación en la columna **Testing**
+👉 Se observa acumulación en **Testing**
 
-### Impacto:
+### Impacto
 
-* Aumento del Cycle Time
-* Retrasos en entregas
-* Cuellos de botella en QA
+* incremento del Cycle Time
+* retrasos en entregas
+* flujo inestable
+
+👉 El sistema comienza a mostrar un cuello de botella claro.
 
 ---
 
-## 🛠️ Acciones tomadas
+## 🛠️ Decisiones tomadas
 
-* Se restringió el ingreso de nuevas tareas en Development
-* Se priorizó la resolución de Testing
-* Se redistribuyó la carga de trabajo del equipo
-* Se mejoraron prácticas de pruebas automatizadas
+A partir de métricas y observación del flujo:
+
+### 1. Control de entrada
+
+* se restringe ingreso de nuevas tareas a Development
+
+---
+
+### 2. Enfoque en finalización
+
+* priorización de tareas en progreso
+
+---
+
+### 3. Redistribución de capacidad
+
+* developers apoyan Testing
+
+---
+
+### 4. Mejora técnica
+
+* fortalecimiento de pruebas automatizadas
 
 ---
 
 ## 📈 Resultados obtenidos
 
-* Reducción del Cycle Time en un ~30%
-* Flujo de trabajo más estable
-* Menor acumulación de tareas
-* Mayor predictibilidad en entregas
-* Mejora en la calidad del producto
+* reducción del Cycle Time (~30%)
+* flujo más estable
+* menor acumulación de trabajo
+* incremento del throughput
+* mayor predictibilidad
 
 ---
 
 ## 📊 Impacto en el producto
 
-* Aumento del tiempo de uso por sesión
-* Mejora en la experiencia de aprendizaje
-* Mayor interacción con funcionalidades clave
-* Feedback positivo de usuarios (niños y padres)
+* aumento del tiempo de uso por sesión
+* mejora en experiencia de aprendizaje
+* mayor interacción con funcionalidades
+* feedback positivo de usuarios (niños y padres)
 
 ---
 
 ## 🔄 Mejora continua
 
-Se establecieron prácticas de optimización:
+El sistema evoluciona mediante:
 
-* Ajuste dinámico de WIP
-* Reducción del tamaño de historias
-* Identificación temprana de bloqueos
-* Uso continuo de métricas para toma de decisiones
+* ajuste dinámico de WIP
+* reducción del tamaño de historias
+* identificación temprana de bloqueos
+* uso continuo de métricas
+
+👉 Kanban se utiliza como sistema de mejora continua.
+
+---
+
+## 🔗 Integración del sistema Kanban
+
+Este caso conecta todos los componentes del módulo:
+
+* 🧱 Diseño → estructura del flujo
+* 🔄 Operación → comportamiento del sistema
+* 🛠️ WIP → control de capacidad
+* 📊 Métricas → toma de decisiones
+
+👉 El valor está en la integración, no en cada elemento por separado.
 
 ---
 
 ## 💼 Enfoque profesional
 
-Este caso refleja una implementación real de Kanban orientada a:
+Este caso refleja competencias en:
 
-* Gestión de delivery end-to-end
-* Optimización del flujo de trabajo
-* Toma de decisiones basada en datos
-* Alineación entre desarrollo y objetivos de negocio
+* gestión de delivery
+* optimización de flujo
+* liderazgo de equipos técnicos
+* toma de decisiones basada en datos
 
 ---
 
-## 🎯 Conclusión
+## 🔥 Insight clave
 
-La implementación de Kanban permitió transformar un flujo de trabajo reactivo en un sistema:
+> Mejorar la velocidad del equipo no depende de trabajar más rápido,
+> sino de gestionar mejor el flujo de trabajo.
 
-👉 predecible, eficiente y orientado a la entrega continua de valor.
+---
 
-Este enfoque es clave en entornos donde la velocidad y la calidad impactan directamente en la experiencia del usuario.
+## ✅ Conclusión
 
+La implementación de Kanban permitió transformar un sistema reactivo en un sistema:
+
+👉 **estable, medible y predecible**
+
+donde la entrega de valor se vuelve continua y sostenible.
