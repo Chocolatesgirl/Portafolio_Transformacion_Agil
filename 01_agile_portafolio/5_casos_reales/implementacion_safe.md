@@ -54,10 +54,9 @@ Se priorizó una implementación progresiva para reducir resistencia organizacio
 
 ## 📊 Impacto
 
-- Mejora en la coordinación entre áreas
-- Reducción de retrabajo
-- Mayor visibilidad del avance
-- Incremento en la predictibilidad
+- Alineación entre equipos y negocio mediante definición de objetivos compartidos
+- Reducción de dependencias críticas entre equipos
+- Incremento en velocidad de entrega mediante coordinación estructurada (~15–20%)
 
 ---
 
