@@ -88,6 +88,8 @@ Se priorizó una implementación progresiva para facilitar la adopción.
 - Disminución de costos operativos
 - Incremento en eficiencia del equipo
 
+👉 Estas mejoras permitieron no solo optimizar el sistema de trabajo, sino también generar impacto directo en resultados de negocio.
+
 ---
 
 ## 🚀 Resultado
