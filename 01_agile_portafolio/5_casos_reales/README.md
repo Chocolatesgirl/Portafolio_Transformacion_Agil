@@ -107,6 +107,8 @@ La transformación ágil no depende de herramientas, sino de:
 - Gestión del cambio
 - Toma de decisiones basada en datos
 
+👉 El impacto real se logra cuando las decisiones de liderazgo se traducen en mejoras medibles en el sistema de trabajo.
+
 ---
 
 ## 🚀 Propuesta de valor
