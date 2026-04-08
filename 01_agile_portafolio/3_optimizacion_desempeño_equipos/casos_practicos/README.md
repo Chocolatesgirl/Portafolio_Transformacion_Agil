@@ -58,14 +58,12 @@ La implementación de estos mecanismos permite:
 
 ---
 
-## 🔗 Relación con el portafolio
+## 🔗 Conexión
 
-Este módulo conecta directamente con:
+Este módulo permite optimizar el desempeño del equipo, asegurando que los objetivos definidos se ejecuten de manera eficiente y sostenida en el tiempo.
 
-- 📊 Gestión de Flujo (Kanban)
-- 🎯 Ejecución Estratégica (OKRs)
-- 🧠 Liderazgo de Equipos (Management 3.0)
+A través de la mejora continua basada en métricas, se identifican fricciones, se ajusta el sistema de trabajo y se incrementa la capacidad de entrega.
 
----
+👉 El siguiente paso es escalar este enfoque a nivel organizacional, lo que se aborda en el módulo de **Liderazgo y Gestión Organizacional**.
 
 👉 La mejora continua se posiciona como un habilitador clave para evolucionar el sistema de trabajo y sostener resultados en el tiempo.
