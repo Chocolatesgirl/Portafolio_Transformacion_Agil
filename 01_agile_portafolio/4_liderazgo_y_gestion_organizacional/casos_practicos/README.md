@@ -15,9 +15,24 @@ Cada caso refleja no solo la implementación de frameworks o herramientas, sino 
 
 ## 🎯 Casos incluidos
 
-### 1. 🔧 Migración de Jira a Azure DevOps
+### 1. 📱 Desarrollo e implementación App AFP Provida
 
-📄 [Ver caso](./migracion_jira_a_azure_devops.md)
+📄 [Ver caso](./desarrollo_app_afp_provida.md)
+
+**Objetivo:**
+Implementar un modelo de trabajo ágil para el desarrollo de una aplicación móvil en un entorno organizacional tradicional.
+
+**Impacto:**
+- Mejora en la coordinación entre áreas
+- Mayor visibilidad del avance
+- Incremento en la predictibilidad de entrega
+- Alineación entre negocio y tecnología
+
+---
+
+### 2. 🔧 Migración de Jira a Azure DevOps
+
+📄 [Ver caso](./migracion_jira_azure_devops.md)
 
 **Objetivo:**
 Integrar gestión de trabajo, desarrollo y testing en una sola plataforma.
@@ -29,7 +44,7 @@ Integrar gestión de trabajo, desarrollo y testing en una sola plataforma.
 
 ---
 
-### 2. 🏢 Implementación de SAFe
+### 3. 🏢 Implementación de SAFe
 
 📄 [Ver caso](./implementacion_safe.md)
 
@@ -43,7 +58,7 @@ Escalar prácticas ágiles en una organización con múltiples áreas.
 
 ---
 
-### 3. 🌍 Expansión de plataforma logística
+### 4. 🌍 Expansión de plataforma logística
 
 📄 [Ver caso](./expansion_plataforma_logistica.md)
 
@@ -62,10 +77,11 @@ Habilitar una plataforma para operar en mercados internacionales.
 A través de estos casos se evidencia experiencia en:
 
 - Transformación ágil organizacional
-- Implementación de frameworks (Scrum, SAFe, Management 3.0)
+- Implementación de frameworks (Scrum, SAFe)
 - Gestión de stakeholders
 - Mejora continua basada en métricas
 - Liderazgo de equipos TI multidisciplinarios
+- Alineación entre negocio y tecnología
 
 ---
 
@@ -86,9 +102,10 @@ Las iniciativas incluyen uso de métricas como:
 
 La transformación ágil no depende de herramientas, sino de:
 
-- Cultura
-- Liderazgo
+- Liderazgo efectivo
 - Alineación estratégica
+- Gestión del cambio
+- Toma de decisiones basada en datos
 
 ---
 
@@ -99,11 +116,10 @@ Estos casos reflejan un enfoque donde:
 - El liderazgo habilita en lugar de controlar
 - Los equipos operan con autonomía alineada
 - La mejora continua es parte del sistema
+- La tecnología se conecta directamente con el negocio
 
 ---
 
 ## 📌 Nota
 
 Los ejemplos presentados están basados en experiencias reales, adaptadas para fines de portafolio profesional.
-
----
