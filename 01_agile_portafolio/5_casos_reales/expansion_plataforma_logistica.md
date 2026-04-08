@@ -63,7 +63,9 @@ Se definió una estrategia de **estandarización y modernización de la platafor
 - Reducción de costos de mantenimiento al simplificar versiones
 - Disminución del tiempo de onboarding de nuevos clientes
 - Aceleración del proceso de expansión internacional
-  
+
+👉 Estas mejoras permitieron no solo optimizar el sistema de trabajo, sino también generar impacto directo en resultados de negocio.
+
 ---
 
 ## 🚀 Resultado
