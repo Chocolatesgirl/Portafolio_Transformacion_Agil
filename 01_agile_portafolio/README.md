@@ -34,7 +34,15 @@ La transformación se aborda como un sistema:
 
 ---
 
-## 🧩 Estructura del repositorio
+## 🧭 Estructura del portafolio
+
+El siguiente diagrama resume cómo se conectan los distintos módulos del portafolio como un sistema de delivery:
+
+![Estructura del portafolio](./assets/estructura_portafolio.png)
+
+---
+
+## 🧩 Estructura del portafolio
 
 | Módulo | Enfoque |
 |------|--------|
