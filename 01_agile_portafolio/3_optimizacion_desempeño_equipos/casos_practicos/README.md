@@ -66,4 +66,6 @@ A través de la mejora continua basada en métricas, se identifican fricciones, 
 
 👉 El siguiente paso es escalar este enfoque a nivel organizacional, lo que se aborda en el módulo de **Liderazgo y Gestión Organizacional**.
 
+A través de la mejora continua basada en métricas, se identifican fricciones, se ajusta el sistema de trabajo y se incrementa la capacidad de entrega.
+
 👉 La mejora continua permite sostener y escalar el desempeño del equipo de manera consistente.
