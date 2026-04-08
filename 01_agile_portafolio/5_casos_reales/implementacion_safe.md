@@ -64,6 +64,8 @@ Se priorizó una implementación progresiva para reducir resistencia organizacio
 - Reducción de retrasos en entregas
 - Mayor alineación entre áreas de negocio y tecnología
 
+👉 Estas mejoras permitieron no solo optimizar el sistema de trabajo, sino también generar impacto directo en resultados de negocio.
+
 ---
 
 ## 🚀 Resultado
