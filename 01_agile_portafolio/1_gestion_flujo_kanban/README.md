@@ -142,9 +142,9 @@ La implementación de este enfoque permite generar mejoras concretas en el siste
 
 ## 🔗 Conexión
 
-Este módulo permite entender el sistema de trabajo.
+Este módulo permite entender y optimizar el sistema de trabajo desde la perspectiva de flujo, identificando cuellos de botella y mejorando la eficiencia operativa.
 
-👉 El siguiente paso es alinear este flujo con objetivos estratégicos (OKRs)
+👉 El siguiente paso es alinear este flujo con objetivos estratégicos, lo que se aborda en el módulo de **Ejecución Estratégica con OKRs**.
 
 ---
 
