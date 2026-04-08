@@ -87,6 +87,16 @@ Convierte la operación en evidencia mediante análisis visual y métricas.
 
 ---
 
+### 📊 Visualización de métricas de flujo
+
+Las métricas permiten entender el comportamiento del sistema y tomar decisiones basadas en datos.
+
+Esta visualización muestra cómo el Lead Time, Cycle Time y Throughput permiten analizar el flujo y detectar oportunidades de mejora.
+
+![Métricas de flujo](../assets/metricas_flujo.png)
+
+---
+
 ### 04_casos_practicos
 
 Integra el sistema completo en una narrativa aplicada.
