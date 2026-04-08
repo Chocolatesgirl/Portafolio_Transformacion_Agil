@@ -58,6 +58,12 @@ Se definió una estrategia de **estandarización y modernización de la platafor
 - Disminución de costos operativos asociados a mantenimiento
 - Aceleración del proceso de expansión internacional
 
+📊 Impacto en negocio:
+
+- Reducción de costos de mantenimiento al simplificar versiones
+- Disminución del tiempo de onboarding de nuevos clientes
+- Aceleración del proceso de expansión internacional
+  
 ---
 
 ## 🚀 Resultado
