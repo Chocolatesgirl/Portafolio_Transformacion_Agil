@@ -2,48 +2,55 @@
 
 ## 🎯 Propósito
 
-Este módulo presenta cómo lidero equipos en contextos complejos, aplicando principios de **Management 3.0** para impulsar desempeño, autonomía y mejora continua.
+Este módulo presenta cómo lidero equipos en entornos complejos, tomando decisiones que impactan directamente en el desempeño, la autonomía y la capacidad de entrega.
 
 ---
 
 ## 🧠 Enfoque
 
-El liderazgo se aborda como un sistema que integra:
+El liderazgo se aborda como un sistema basado en:
 
-- Personas
-- Procesos
-- Métricas
-- Cultura
+- Toma de decisiones
+- Gestión del desempeño
+- Alineación organizacional
+- Mejora continua
 
 ---
 
 ## 🔧 Ámbitos de trabajo
 
-- Energizar personas
-- Empoderar equipos
-- Alinear restricciones
-- Desarrollar competencias
-- Mejorar continuamente
+- Definición de modelos de decisión
+- Desarrollo de equipos
+- Gestión del cambio
+- Escalamiento organizacional
 
 ---
 
-## 📊 Impacto esperado
+## 📊 Métricas utilizadas
+
+- Flow metrics (Lead Time, Cycle Time)
+- Rendimiento del equipo
+- Engagement y salud del equipo
+
+---
+
+## 🚀 Impacto generado
 
 - Equipos más autónomos
-- Reducción de dependencia en liderazgo centralizado
-- Mejora en desempeño y entrega
-- Mayor compromiso del equipo
+- Reducción de cuellos de botella
+- Mejora en la entrega de valor
+- Mayor alineación organizacional
 
 ---
 
-## 🚀 Enfoque aplicado
+## 🔗 Relación con el portafolio
 
-Cada práctica presentada incluye:
+Este módulo conecta con:
 
-- Contexto real
-- Decisión de liderazgo
-- Métricas de impacto
+- Kanban → gestión de flujo
+- OKRs → alineación estratégica
+- Mejora continua → optimización del sistema
 
 ---
 
-👉 El liderazgo efectivo no se basa en control, sino en diseñar sistemas que permitan a los equipos rendir al máximo.
+👉 El liderazgo efectivo se refleja en decisiones que mejoran resultados, no solo en la aplicación de prácticas.
